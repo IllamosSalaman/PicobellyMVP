@@ -1,0 +1,48 @@
+.pixcare-footer-expired-band {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100%;
+  padding: 1em;
+  font-family: 'Galano Grotesque Alt', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  background-color: black;
+  color: white; }
+  @media only screen and (min-width: 600px) {
+    .pixcare-footer-expired-band {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; } }
+
+.pixcare-club-upgrade-now-btn {
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #00A9DE;
+  color: #FFFFFF;
+  padding: 0.25em 1em;
+  border-bottom: 0; }
+  @media only screen and (min-width: 1000px) {
+    .pixcare-club-upgrade-now-btn {
+      position: absolute;
+      top: 50%;
+      right: 1em;
+      transform: translate(0, -50%); } }
+
+.pixcare-footer-expired-text {
+  padding-left: 1em;
+  padding-right: 1em;
+  flex-grow: 1;
+  margin-bottom: .5em; }
+  @media only screen and (min-width: 600px) {
+    .pixcare-footer-expired-text {
+      margin-bottom: 0; } }
+  @media only screen and (min-width: 1000px) {
+    .pixcare-footer-expired-text {
+      margin-left: 300px;
+      margin-right: 300px; } }
+
+.pixcare-club-upgrade-now-btn {
+  flex-shrink: 0; }

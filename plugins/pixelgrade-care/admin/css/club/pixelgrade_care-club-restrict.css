@@ -1,0 +1,31 @@
+#postdivrich {
+	display: none;
+}
+
+#postbox-container-2 {
+	display: none;
+}
+
+#side-sortables {
+	pointer-events: none;
+	opacity: 0.4;
+}
+
+iframe {
+	display: none !important;
+}
+
+#customize-theme-controls li[id*="_options["] {
+	cursor: not-allowed;
+}
+
+#customize-theme-controls li[id*="_options["] > .accordion-section-title {
+	opacity: 0.5;
+	pointer-events: none;
+	border-left-color: transparent !important;
+	color: inherit;
+}
+
+#customize-theme-controls li[id*="_options["] > .accordion-section-title:after {
+	content: "\f160";
+}
